@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Estilos del header*/
+header {
+  background-color: #3bacb6;
+  padding: 20px;
+}
+
+header .barraNavPrimera {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+header .barraNavPrimera .options {
+  text-align: right;
+}
+
+header .barraNavPrimera .options a {
+  text-decoration: none;
+  color: black;
+  margin-left: 1rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+header .logoImagen {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column-reverse;
+  vertical-align: middle;
+}
+
+header .loloImagen img {
+  width: 100%;
+  height: 100%;
+}
+
+header .barraNav {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #3bacb6;
+  width: calc(100%-104px);
+  height: 100px;
+  vertical-align: middle;
+}
+
+header .barraNav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header .barraNav ul li {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 38px 20px;
+}
+
+header .barraNav ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #f0d9ff;
+}
+
+.item {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.item-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.item-image {
+  height: 300px;
+  width: 100%;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 15px;
+}
+
+.item-details > .item-price {
+  margin: 0;
+}
+
+/* MAIN */
+.store {
+  background-color: #82dbd8;
+}
+
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #82dbd8;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: #3bacb6;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
+}
+
+.shopping-cart {
+  background-color: #82dbd8;
+}
+
+/*Estilos del footer*/
+footer .redes {
+  background-color: #b3e8e5;
+  padding: 25px;
+}
+
+footer .icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 15px;
+}
+
+footer .redes .p {
+  padding-top: 25px;
+}
+p {
+  text-align: center;
+}
